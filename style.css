@@ -4,7 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgba(118, 118, 118, 0.749)
+    background: url(pexels-pixabay-220118.jpg) center center no-repeat ; 
 }   
 h1{
     font-family: 'Times New Roman', Times, serif;
@@ -23,6 +23,8 @@ h1{
     background-color: rgb(118, 152, 152);
     border-radius: 20px;
     margin: 10PX;
+    border: none;
+    box-shadow: 5px 4px 7px black;
 }
 #btn:active{
     transform: scale(85%);
